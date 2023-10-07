@@ -28,3 +28,8 @@ const nameArray = ["bhaskar", "purohit"]; //can contain only strings
 const myArray = [1, 2, 3456, 76532, 24];
 const mixedArray = [1, "fdgsbv"];
 const fiexdArray = [1, 2, 3]; //this is a tuple, i.e. has fixed number of elements
+const obj = {
+    height: 23,
+    weight: 34,
+    gender: true,
+};

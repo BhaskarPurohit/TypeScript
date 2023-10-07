@@ -43,3 +43,32 @@ const mixedArray:Array<number|string> = [1,"fdgsbv"]
 const fiexdArray:[number, number, number] = [1,2,3] //this is a tuple, i.e. has fixed number of elements
 
 
+/*Objects in TypeScript*/
+type Obj = {
+    height:number,
+    weight:number,
+    gender:boolean  //if we write gender? then gender property becomes optional other wise all other properties are mandatory
+}
+
+//another way is 
+type functionType = (n:number, m:number)=>number
+interface Obj2{       //using interface we can apply inheritance
+    objName:string,
+    objAge:number,
+    func: functionType
+}
+
+const person:Obj2 = {
+    objName:"bhaskar",
+    objAge:26,
+    func: (p,q)=>{
+        return p+q
+    },
+}
+
+
+const obj:Obj={
+    height: 23,
+    weight:34,
+    gender:true,
+}
