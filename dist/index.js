@@ -22,3 +22,9 @@ let a = 34; //we created a UserName data type which can be string or number only
 const addTwoNum = (p, q) => {
     return p + q;
 };
+const newArry = [1, 2, 43, 35, 765]; //array that can have only numbers
+const nameArray = ["bhaskar", "purohit"]; //can contain only strings
+//another way to define array
+const myArray = [1, 2, 3456, 76532, 24];
+const mixedArray = [1, "fdgsbv"];
+const fiexdArray = [1, 2, 3]; //this is a tuple, i.e. has fixed number of elements

@@ -31,3 +31,15 @@ type intFunction = (n:number, m:number)=>number //making a type alias for functi
 const addTwoNum:intFunction = (p,q)=>{
     return p+q
 }
+
+const newArry:number[] = [1,2,43,35,765] //array that can have only numbers
+
+const nameArray:string[] = ["bhaskar","purohit"] //can contain only strings
+
+//another way to define array
+const myArray:Array<number> = [1,2,3456,76532,24]
+const mixedArray:Array<number|string> = [1,"fdgsbv"]
+
+const fiexdArray:[number, number, number] = [1,2,3] //this is a tuple, i.e. has fixed number of elements
+
+
