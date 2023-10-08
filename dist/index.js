@@ -40,3 +40,9 @@ const obj = {
     weight: 34,
     gender: true,
 };
+//here parameter l is optional
+const multiplyThree = (n, m, l) => {
+    if (typeof l === "undefined")
+        return "one parameter missing"; //if l is not defined, it will be undefined
+    return n * l * m;
+};

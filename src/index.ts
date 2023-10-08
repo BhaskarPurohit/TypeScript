@@ -72,3 +72,20 @@ const obj:Obj={
     weight:34,
     gender:true,
 }
+
+type funcType = (n:number,m:number,l?:number)=>number | string 
+//here parameter l is optional
+
+const multiplyThree:funcType=(n,m,l)=>{
+    if(typeof l === "undefined") return "one parameter missing"  //if l is not defined, it will be undefined
+
+    return n*l*m
+}
+
+
+/**Default parameter */
+type newFunc = (n:number, m:number, l?:number) => number | string
+
+const defaultParamFunction: newFunc=(n,m,l = 20)=>{
+    return n* m *l
+}
