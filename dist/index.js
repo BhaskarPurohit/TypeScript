@@ -46,3 +46,6 @@ const multiplyThree = (n, m, l) => {
         return "one parameter missing"; //if l is not defined, it will be undefined
     return n * l * m;
 };
+const defaultParamFunction = (n, m, l = 20) => {
+    return n * m * l;
+};
