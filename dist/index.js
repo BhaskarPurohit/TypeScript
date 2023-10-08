@@ -53,7 +53,6 @@ const func2 = (...m) => {
     return m;
 };
 func2(23, 34, 456, 123, 13, 13);
-/*function with objects*/
 const getData = (product) => {
     console.log(product);
 };

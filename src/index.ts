@@ -105,7 +105,14 @@ func2(23,34,456,123,13,13)
 
 /*function with objects*/
 
-const getData = (product:{name:string, stockPrice:number, stock:number}):void =>{
+type getDataType = (product:{
+    name:string,
+    stockPrice: number,
+    stock: number
+
+}) => void
+
+const getData:getDataType = (product) =>{
     console.log(product)
 
 }
