@@ -49,3 +49,11 @@ const multiplyThree = (n, m, l) => {
 const defaultParamFunction = (n, m, l = 20) => {
     return n * m * l;
 };
+const func2 = (...m) => {
+    return m;
+};
+func2(23, 34, 456, 123, 13, 13);
+/*function with objects*/
+const getData = (product) => {
+    console.log(product);
+};

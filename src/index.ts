@@ -89,3 +89,23 @@ type newFunc = (n:number, m:number, l?:number) => number | string
 const defaultParamFunction: newFunc=(n,m,l = 20)=>{
     return n* m *l
 }
+
+
+/*Rest operator 
+if we dont know how many parameters will be passed so we will receive them as arrays
+*/
+type funcType2 = (...m:number[]) =>number[]
+
+const func2:funcType2 = (...m)=>{
+    return m 
+}
+
+func2(23,34,456,123,13,13)
+
+
+/*function with objects*/
+
+const getData = (product:{name:string, stockPrice:number, stock:number}):void =>{
+    console.log(product)
+
+}
