@@ -161,4 +161,4 @@ class Player{
 }
 
 const bhaskar = new Player(100,150)
-console.log(bhaskar.getHeight);
+console.log(bhaskar.getHeight());
