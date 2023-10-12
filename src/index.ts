@@ -145,14 +145,20 @@
 /*---------------------------------------------- */
 //Classes in TypeScript
 class Player{
-    height = 34;
+    private height = 34;
     weight =  78;
+
+    
 
     constructor(height:number, weight:number){
         this.height = height;
         this.weight = weight;
     }
+
+     getHeight =()=>{
+        return this.height
+    }
 }
 
 const bhaskar = new Player(100,150)
-console.log(bhaskar.height);
+console.log(bhaskar.getHeight);
