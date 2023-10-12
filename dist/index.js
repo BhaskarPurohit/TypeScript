@@ -56,3 +56,13 @@ func2(23, 34, 456, 123, 13, 13);
 const getData = (product) => {
     console.log(product);
 };
+const productOne = {
+    name: "Macbook",
+    stock: 46,
+    price: 1232343,
+    photo: "sampleurl"
+};
+getData(productOne);
+
+
+
